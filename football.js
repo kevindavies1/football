@@ -15,6 +15,7 @@ function getMessage(){
     result.push(status[num] + ' ');
     num = randomNum(awayTeam.length);
     result.push(awayTeam[num]);
+    return result;
 }
 
 console.log(getMessage());
